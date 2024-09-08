@@ -1,0 +1,144 @@
+body {
+  background: #fcf8f6;
+}
+.text-c-red {
+  color: #c73b0f;
+}
+.text-c-bean {
+  color: #87635a;
+}
+.text-c-dark {
+  color: #260f08;
+}
+.removeIcon {
+  padding: 2px;
+  margin: auto;
+  border: 1px solid #ad8a85;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.productCard {
+  position: relative;
+  .buttons {
+    .addToCard {
+      cursor: pointer;
+      width: 160px;
+      height: 44px;
+      padding: 5px;
+      position: relative;
+      display: flex;
+      justify-items: space-between;
+      align-items: center;
+      font-size: 14px;
+      padding: 0.5em 2em;
+      border-radius: 20px;
+      border: 1px solid #ad8a85;
+      background: #fff;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      color: #000;
+      &:hover {
+        color: #c73b0f;
+        border: 2px solid #c73b0f;
+      }
+      &.added {
+        background: #c73b0f;
+        color: #fff;
+        font-size: 14px;
+        cursor: default;
+      }
+      .qtyBtnIncrease {
+        padding: 2px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .qtyBtnDecrease {
+        padding: 6px 2px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.productInfo {
+  .category {
+    color: #87635a;
+  }
+  .name {
+    color: #260f08;
+  }
+  .price {
+    color: #c73b0f;
+  }
+}
+
+.cartItem {
+  font-size: 14px;
+  .name {
+    color: #260f08;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+  }
+  .qty {
+    color: #c73b0f;
+    font-weight: 600;
+    margin-right: 1em;
+  }
+  .unitPrice {
+    color: #87635a;
+    font-weight: 400;
+    margin-right: 0.5em;
+  }
+  .totalPrice {
+    color: #87635a;
+    font-weight: 600;
+  }
+}
+#carbonNeutral {
+  color: #260f08;
+  padding: 1em;
+  width: 100%;
+  border-radius: 0.5em;
+  font-size: 14px;
+  background: #fcf8f6;
+  margin: 2em 0;
+}
+#confirmOrderBtn {
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  background: #c73b0f;
+  padding: 10px;
+  color: #fff;
+  border-radius: 20px;
+}
+#startNewOrderBtn {
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  background: #c73b0f;
+  padding: 10px;
+  color: #fff;
+  border-radius: 20px;
+}
+.productImg {
+  width: 100%;
+  height: auto;
+  // object-fit: "cover";
+  margin: 0 auto;
+  border-radius: 10px;
+  &.added {
+    border: 2px solid #c73b0f;
+  }
+}
+#orderList {
+  background: #fcf8f6;
+  padding: 1em;
+  font-size: 14px;
+  margin-bottom: 2rem;
+  border-radius: 7px;
+}
