@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [git repo](https://github.com/agathayin/portfolio/new/main/src/app/url-shortening)
+- Solution URL: [git repo](https://github.com/agathayin/portfolio/tree/main/src/app/url-shortening)
 - Live Site URL: [live site](https://agathayin.net/url-shortening)
 
 ## My process
