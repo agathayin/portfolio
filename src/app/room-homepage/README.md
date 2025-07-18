@@ -27,6 +27,11 @@ This project replicates a stylish furniture homepage with a responsive image sli
 
 ![Room Homepage Desktop Preview](./preview.jpg)
 
+### Links
+
+- Solution URL: [git repo](https://github.com/agathayin/portfolio/tree/main/src/app/room-homepage)
+- Live Site URL: [live site](https://agathayin.net/room-homepage)
+
 ## What I Learned
 
 - Deepened understanding of Tailwind CSS utility classes for responsive design.
